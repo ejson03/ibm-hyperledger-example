@@ -33,7 +33,7 @@ async function main() {
     const contract = network.getContract("medical");
 
     // Submit the specified transaction.
-    await contract.submitTransaction("createMyAsset", "002", "Night Watch");
+    await contract.submitTransaction("createMedical", "002", "Night Watch");
     console.log("Transaction has been submitted");
 
     // Disconnect from the gateway.
