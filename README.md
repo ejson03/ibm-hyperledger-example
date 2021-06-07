@@ -1,6 +1,6 @@
 # VSCode IBM Blockchain Platform Extension Learning
 This repo contains contains examples and learning material for the course
-https://cognitiveclass.ai/courses/blockchain-course
+https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev
 ## My Certificate
 https://courses.cognitiveclass.ai/certificates/5bddf5f0ae144545af421f44ba04d342
 
