@@ -1,11 +1,13 @@
 # VSCode IBM Blockchain Platform Extension Learning
 This repo contains contains examples and learning material for the course
+
 https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev
 ## My Certificate
 https://courses.cognitiveclass.ai/certificates/5bddf5f0ae144545af421f44ba04d342
 
 ## Learning Material 
-https://github.com/ejson03/ibm-hyperledger-example/tutorials
+https://github.com/ejson03/ibm-hyperledger-example/tree/main/tutorials
+
 All pdfs downloaded from the vscode extension
 
 ## Prerequisites
@@ -14,16 +16,16 @@ All pdfs downloaded from the vscode extension
 
 ## List of experiments
 
-### [exp1](https://github.com/ejson03/ibm-hyperledger-example/medical)
+### [exp1](https://github.com/ejson03/ibm-hyperledger-example/tree/main/medical)
 - Create a simple one organization network
 - Create a smart contract, package and deploy it to channel
 - Play around with transactions in UI
 - Upgrade the chaincode and deploy new version
 
-### [exp2](https://github.com/ejson03/ibm-hyperledger-example/server)
+### [exp2](https://github.com/ejson03/ibm-hyperledger-example/tree/main/server)
 - Create a server to inject data from outide application
 
-### [exp3](https://github.com/ejson03/ibm-hyperledger-example/carContract)
+### [exp3](https://github.com/ejson03/ibm-hyperledger-example/tree/main/carContract)
 - Develop non admin users
 - One with attributes and one without
 - Implement attribute based access control(ABAC)
@@ -70,6 +72,9 @@ export MICROFAB_CONFIG='{
 docker run -e MICROFAB_CONFIG -p 8080:8080 ibmcom/ibp-microfab
 ```
 - Import you network in fabric environments
+
+## [exp5](https://github.com/ejson03/ibm-hyperledger-example/tree/main/privateAsset)
+- Create a private asset chaincode and execute it in different channels
 
 
 
